@@ -23,7 +23,7 @@ Follow these steps to clone and run the project locally.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/pool-game.git
+git clone https://github.com/DeepanjanDas123/8BallPool.git
 cd pool-game
 ```
 
