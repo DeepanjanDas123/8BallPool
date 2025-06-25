@@ -24,7 +24,7 @@ Follow these steps to clone and run the project locally.
 
 ```bash
 git clone https://github.com/DeepanjanDas123/8BallPool.git
-cd pool-game
+cd 8BallPool
 ```
 
 ### Install Dependencies
