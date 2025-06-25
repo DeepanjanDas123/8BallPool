@@ -1,0 +1,51 @@
+body {
+    background: #233;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#poolCanvas {
+    background: #23681b;
+    border: 12px solid #874421;
+    border-radius: 18px;
+    box-shadow: 0 0 24px #000a;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    touch-action: none; /* Prevents browser gestures interfering with game */
+}
+
+#scoreboard {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 8px 0;
+}
+
+#scoreboard span {
+    min-width: 110px;
+    display: inline-block;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online 8 Ball Pool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Online 8 Ball Pool</h1>
+    <div id="status"></div>
+    <div id="gameContainer">
+        <canvas id="poolCanvas" width="900" height="500"></canvas>
+    </div>
+    <div id="scoreboard">
+        <span id="turn">Player 1's Turn</span>
+        <span id="scoreP1">Player 1: 0</span>
+        <span id="scoreP2">Player 2: 0</span>
+    </div>
+    <div id="winner" style="display:none; font-weight:bold; font-size:1.5em; margin-top:10px;"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
